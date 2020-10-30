@@ -1,23 +1,23 @@
 WORKING TITLE: SPRYTZ FLIGHT
 
-THIS IS A SIMPLE SCROLLING GAME I CREATED USING APPLE’S XCODE SOFTWARE
-AND MOSTLY WRITTEN IN THEIR SWIFT LANGUAGE.
-THE GAME WAS SUCCESSFULLY PUBLISHED IN THE APP STORE IN SEPTEMBER 2015.
+This is a simple scrolling game i created using Apple’s XCode software
+and mostly written in Swift / Objective-C
+The game was successfully published in the app store in September 2015
 
-THE GAME WAS DESIGNED TO BE VERY SIMPLE WITH REGARDS THE CONTROLS AND GAMEPLAY
-BUT PARTICULARLY CHALLENGING IN RELATION TO GAMEPLAY DIFFICULTY  AND POINT SCORING
+The game was designed to be very simple with regards the controls and gameplay
+but particularly challenging in relation to gameplay difficulty and point scoring
 
-THE INTENT WAS TO CREATE A SHORT BURST GAME WHERE PLAYERS WOULD HAVE
-SEVERAL GOES AT BEATING HIGH SCORES IN SHORT SUCCESSION
+The intent was to create a short burst game where players would have
+several goes at beating high scores in short succession
 
-THERE WAS A LOT OF PROMOTIONAL CONTENT SURROUNDING THE GAME AND
-COMPETITIONS WERE PUT ON FOR THE HIGHEST SCORERS IN LOCAL AREAS
+There was a lot of promotional content surrounding the game and
+competitions were put on for the highest scorers in local areas
 
-THE GAME WAS LINKED TO APPLES GAME CENTRE WHICH KEPT A DATABASE OF PEOPLES SCORES.
+The game was linked to Apples Game Centre which kept a database of peoples scores
 
-THERE WAS A LOT OF INTEREST INT THE FIRST FEW MONTHS OF IT’S RELEASE
+There was a lot of interest in the first few months of it’s release
+Unfortunately the game had to be pulled from the app store when Apple changed
+their policy on their built in advertising
 
-UNFORTUNATELY THE GAME HAD TO BE PULLED FROM THE APP STORE WHEN APPLE CHANGED
-THEIR POLICY ON THEIR BUILT IN ADVERTISING
-
-I HAVEN’T REVISITED THE GAME SINCE, ONE DAY I DEFINITELY WILL.
+I haven’t revisited the game since
+…one day i definitely will!
