@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F420358C1C45892F00D5AD39 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42035891C45892F00D5AD39 /* FBSDKCoreKit.framework */; };
+		F420358D1C45892F00D5AD39 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420358A1C45892F00D5AD39 /* FBSDKLoginKit.framework */; };
+		F420358E1C45892F00D5AD39 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420358B1C45892F00D5AD39 /* FBSDKShareKit.framework */; };
+		F4664FB31BB1CBFA0070014C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4664FB21BB1CBFA0070014C /* AppDelegate.swift */; };
+		F4664FB91BB1CBFA0070014C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4664FB81BB1CBFA0070014C /* GameViewController.swift */; };
+		F4664FBC1BB1CBFA0070014C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4664FBA1BB1CBFA0070014C /* Main.storyboard */; };
+		F4664FBE1BB1CBFB0070014C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4664FBD1BB1CBFB0070014C /* Assets.xcassets */; };
+		F4664FC11BB1CBFB0070014C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4664FBF1BB1CBFB0070014C /* LaunchScreen.storyboard */; };
+		F4664FC91BB1CC1C0070014C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4664FC81BB1CC1C0070014C /* iAd.framework */; };
+		F4664FCB1BB1CD470070014C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4664FCA1BB1CD470070014C /* GameKit.framework */; };
+		F4664FD31BB1CEEA0070014C /* deathSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FCC1BB1CEEA0070014C /* deathSong.mp3 */; };
+		F4664FD41BB1CEEA0070014C /* ghostDeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FCD1BB1CEEA0070014C /* ghostDeath.mp3 */; };
+		F4664FD51BB1CEEA0070014C /* homeScreenMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FCE1BB1CEEA0070014C /* homeScreenMusic.mp3 */; };
+		F4664FD61BB1CEEA0070014C /* mainGameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FCF1BB1CEEA0070014C /* mainGameMusic.mp3 */; };
+		F4664FD71BB1CEEA0070014C /* playerTurn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FD01BB1CEEA0070014C /* playerTurn.mp3 */; };
+		F4664FD81BB1CEEA0070014C /* sideDeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FD11BB1CEEA0070014C /* sideDeath.mp3 */; };
+		F4664FD91BB1CEEA0070014C /* SprytzFlightVocal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4664FD21BB1CEEA0070014C /* SprytzFlightVocal.mp3 */; };
+		F4664FE21BB1D28D0070014C /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4664FE11BB1D28D0070014C /* GamePlayScene.sks */; };
+		F4664FE41BB1D2A40070014C /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4664FE31BB1D2A40070014C /* GameOverScene.sks */; };
+		F4664FE61BB1D2C60070014C /* HomeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4664FE51BB1D2C60070014C /* HomeScene.sks */; };
+		F4664FE81BB1D2D30070014C /* InfoScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4664FE71BB1D2D30070014C /* InfoScene.sks */; };
+		F4664FEA1BB1D4750070014C /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4664FE91BB1D4750070014C /* HomeScene.swift */; };
+		F4664FEC1BB1D4860070014C /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4664FEB1BB1D4860070014C /* GamePlayScene.swift */; };
+		F4664FEE1BB1D4950070014C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4664FED1BB1D4950070014C /* GameOverScene.swift */; };
+		F4664FF01BB1D4A50070014C /* InfoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4664FEF1BB1D4A50070014C /* InfoScene.swift */; };
+		F4F5DF221BB49D9C00D36458 /* AnimatedText.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F4F5DF211BB49D9C00D36458 /* AnimatedText.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42035891C45892F00D5AD39 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F420358A1C45892F00D5AD39 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F420358B1C45892F00D5AD39 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F4664FAF1BB1CBFA0070014C /* Sprytz Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprytz Flight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4664FB21BB1CBFA0070014C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4664FB81BB1CBFA0070014C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F4664FBB1BB1CBFA0070014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4664FBD1BB1CBFB0070014C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4664FC01BB1CBFB0070014C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4664FC21BB1CBFB0070014C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4664FC81BB1CC1C0070014C /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F4664FCA1BB1CD470070014C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F4664FCC1BB1CEEA0070014C /* deathSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deathSong.mp3; sourceTree = "<group>"; };
+		F4664FCD1BB1CEEA0070014C /* ghostDeath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ghostDeath.mp3; sourceTree = "<group>"; };
+		F4664FCE1BB1CEEA0070014C /* homeScreenMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = homeScreenMusic.mp3; sourceTree = "<group>"; };
+		F4664FCF1BB1CEEA0070014C /* mainGameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainGameMusic.mp3; sourceTree = "<group>"; };
+		F4664FD01BB1CEEA0070014C /* playerTurn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = playerTurn.mp3; sourceTree = "<group>"; };
+		F4664FD11BB1CEEA0070014C /* sideDeath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sideDeath.mp3; sourceTree = "<group>"; };
+		F4664FD21BB1CEEA0070014C /* SprytzFlightVocal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SprytzFlightVocal.mp3; sourceTree = "<group>"; };
+		F4664FE11BB1D28D0070014C /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
+		F4664FE31BB1D2A40070014C /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		F4664FE51BB1D2C60070014C /* HomeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HomeScene.sks; sourceTree = "<group>"; };
+		F4664FE71BB1D2D30070014C /* InfoScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = InfoScene.sks; sourceTree = "<group>"; };
+		F4664FE91BB1D4750070014C /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		F4664FEB1BB1D4860070014C /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
+		F4664FED1BB1D4950070014C /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		F4664FEF1BB1D4A50070014C /* InfoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoScene.swift; sourceTree = "<group>"; };
+		F4F5DF211BB49D9C00D36458 /* AnimatedText.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = AnimatedText.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4664FAC1BB1CBFA0070014C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4664FCB1BB1CD470070014C /* GameKit.framework in Frameworks */,
+				F420358C1C45892F00D5AD39 /* FBSDKCoreKit.framework in Frameworks */,
+				F420358E1C45892F00D5AD39 /* FBSDKShareKit.framework in Frameworks */,
+				F420358D1C45892F00D5AD39 /* FBSDKLoginKit.framework in Frameworks */,
+				F4664FC91BB1CC1C0070014C /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4664FA61BB1CBFA0070014C = {
+			isa = PBXGroup;
+			children = (
+				F42035891C45892F00D5AD39 /* FBSDKCoreKit.framework */,
+				F420358A1C45892F00D5AD39 /* FBSDKLoginKit.framework */,
+				F420358B1C45892F00D5AD39 /* FBSDKShareKit.framework */,
+				F4664FCA1BB1CD470070014C /* GameKit.framework */,
+				F4664FC81BB1CC1C0070014C /* iAd.framework */,
+				F4664FB11BB1CBFA0070014C /* Sprytz Flight */,
+				F4664FB01BB1CBFA0070014C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4664FB01BB1CBFA0070014C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4664FAF1BB1CBFA0070014C /* Sprytz Flight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4664FB11BB1CBFA0070014C /* Sprytz Flight */ = {
+			isa = PBXGroup;
+			children = (
+				F4664FB21BB1CBFA0070014C /* AppDelegate.swift */,
+				F4664FB81BB1CBFA0070014C /* GameViewController.swift */,
+				F4664FE51BB1D2C60070014C /* HomeScene.sks */,
+				F4664FE91BB1D4750070014C /* HomeScene.swift */,
+				F4664FE11BB1D28D0070014C /* GamePlayScene.sks */,
+				F4664FEB1BB1D4860070014C /* GamePlayScene.swift */,
+				F4664FE31BB1D2A40070014C /* GameOverScene.sks */,
+				F4664FED1BB1D4950070014C /* GameOverScene.swift */,
+				F4664FE71BB1D2D30070014C /* InfoScene.sks */,
+				F4664FEF1BB1D4A50070014C /* InfoScene.swift */,
+				F4664FBA1BB1CBFA0070014C /* Main.storyboard */,
+				F4664FBD1BB1CBFB0070014C /* Assets.xcassets */,
+				F4664FBF1BB1CBFB0070014C /* LaunchScreen.storyboard */,
+				F4F5DF211BB49D9C00D36458 /* AnimatedText.atlas */,
+				F4664FC21BB1CBFB0070014C /* Info.plist */,
+				F4664FDA1BB1CEF50070014C /* Sounds */,
+			);
+			path = "Sprytz Flight";
+			sourceTree = "<group>";
+		};
+		F4664FDA1BB1CEF50070014C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F4664FCC1BB1CEEA0070014C /* deathSong.mp3 */,
+				F4664FCD1BB1CEEA0070014C /* ghostDeath.mp3 */,
+				F4664FCE1BB1CEEA0070014C /* homeScreenMusic.mp3 */,
+				F4664FCF1BB1CEEA0070014C /* mainGameMusic.mp3 */,
+				F4664FD01BB1CEEA0070014C /* playerTurn.mp3 */,
+				F4664FD11BB1CEEA0070014C /* sideDeath.mp3 */,
+				F4664FD21BB1CEEA0070014C /* SprytzFlightVocal.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4664FAE1BB1CBFA0070014C /* Sprytz Flight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4664FC51BB1CBFB0070014C /* Build configuration list for PBXNativeTarget "Sprytz Flight" */;
+			buildPhases = (
+				F4664FAB1BB1CBFA0070014C /* Sources */,
+				F4664FAC1BB1CBFA0070014C /* Frameworks */,
+				F4664FAD1BB1CBFA0070014C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sprytz Flight";
+			productName = "Sprytz Flight";
+			productReference = F4664FAF1BB1CBFA0070014C /* Sprytz Flight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4664FA71BB1CBFA0070014C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Danny Gillespie";
+				TargetAttributes = {
+					F4664FAE1BB1CBFA0070014C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GVT5SYY4RW;
+					};
+				};
+			};
+			buildConfigurationList = F4664FAA1BB1CBFA0070014C /* Build configuration list for PBXProject "Sprytz Flight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4664FA61BB1CBFA0070014C;
+			productRefGroup = F4664FB01BB1CBFA0070014C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4664FAE1BB1CBFA0070014C /* Sprytz Flight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4664FAD1BB1CBFA0070014C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4664FC11BB1CBFB0070014C /* LaunchScreen.storyboard in Resources */,
+				F4664FD31BB1CEEA0070014C /* deathSong.mp3 in Resources */,
+				F4664FE21BB1D28D0070014C /* GamePlayScene.sks in Resources */,
+				F4664FBE1BB1CBFB0070014C /* Assets.xcassets in Resources */,
+				F4664FE41BB1D2A40070014C /* GameOverScene.sks in Resources */,
+				F4664FBC1BB1CBFA0070014C /* Main.storyboard in Resources */,
+				F4F5DF221BB49D9C00D36458 /* AnimatedText.atlas in Resources */,
+				F4664FE61BB1D2C60070014C /* HomeScene.sks in Resources */,
+				F4664FD41BB1CEEA0070014C /* ghostDeath.mp3 in Resources */,
+				F4664FD81BB1CEEA0070014C /* sideDeath.mp3 in Resources */,
+				F4664FD51BB1CEEA0070014C /* homeScreenMusic.mp3 in Resources */,
+				F4664FD91BB1CEEA0070014C /* SprytzFlightVocal.mp3 in Resources */,
+				F4664FD61BB1CEEA0070014C /* mainGameMusic.mp3 in Resources */,
+				F4664FD71BB1CEEA0070014C /* playerTurn.mp3 in Resources */,
+				F4664FE81BB1D2D30070014C /* InfoScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4664FAB1BB1CBFA0070014C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4664FF01BB1D4A50070014C /* InfoScene.swift in Sources */,
+				F4664FEE1BB1D4950070014C /* GameOverScene.swift in Sources */,
+				F4664FEC1BB1D4860070014C /* GamePlayScene.swift in Sources */,
+				F4664FEA1BB1D4750070014C /* HomeScene.swift in Sources */,
+				F4664FB91BB1CBFA0070014C /* GameViewController.swift in Sources */,
+				F4664FB31BB1CBFA0070014C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4664FBA1BB1CBFA0070014C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4664FBB1BB1CBFA0070014C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4664FBF1BB1CBFB0070014C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4664FC01BB1CBFB0070014C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4664FC31BB1CBFB0070014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4664FC41BB1CBFB0070014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4664FC61BB1CBFB0070014C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Sprytz Flight/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dannygillespie.Sprytz-Flight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4664FC71BB1CBFB0070014C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Sprytz Flight/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dannygillespie.Sprytz-Flight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4664FAA1BB1CBFA0070014C /* Build configuration list for PBXProject "Sprytz Flight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4664FC31BB1CBFB0070014C /* Debug */,
+				F4664FC41BB1CBFB0070014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4664FC51BB1CBFB0070014C /* Build configuration list for PBXNativeTarget "Sprytz Flight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4664FC61BB1CBFB0070014C /* Debug */,
+				F4664FC71BB1CBFB0070014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4664FA71BB1CBFA0070014C /* Project object */;
+}
